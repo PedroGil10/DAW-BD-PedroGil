@@ -1,0 +1,1 @@
+db.animals.find().sort({ age: -1 }).limit(3)

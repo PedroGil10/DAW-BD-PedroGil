@@ -1,0 +1,1 @@
+db.animals.find().skip(5).limit(7)

@@ -1,0 +1,4 @@
+db.animals.aggregate([
+    { $match: { age: { $lt: 10 } } },
+    { $sort: { name: 1 } }
+])
